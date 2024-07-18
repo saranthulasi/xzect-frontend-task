@@ -1,0 +1,82 @@
+@media (max-width: 500px) {
+  .welcome {
+    display: none;
+  }
+
+  /* -------------------secI----------------------- */
+
+  .secI {
+    height: 400px;
+    width: 100%;
+  }
+
+  .secI-cont {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .secI p {
+    width: 40%;
+  }
+  .secI h1 {
+    width: 60%;
+    letter-spacing: -2px;
+    line-height: -12px;
+    font-size: 40px;
+  }
+  .btnI {
+    width: 50%;
+  }
+
+  /* ----------------------------secII-------------------------- */
+
+  .secII {
+    width: 100%;
+    height: 400px;
+  }
+
+  .secII-cont {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10%;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    height: 90%;
+    margin-top: 0;
+  }
+
+  .secII span {
+    height: 30%;
+    width: 90%;
+  }
+
+  .secII-cont span h3 {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .secII-cont span p {
+    width: 70%;
+    font-size: small;
+  }
+
+  .qe {
+    width: 80%;
+    height: 10%;
+    margin-top: 70px;
+  }
+  .aff {
+    width: 80%;
+    height: 30%;
+    margin-top: 1px;
+  }
+  .serv {
+    width: 80%;
+    height: 30%;
+    margin-top: 1px;
+  }
+}
+  /* -------------------------------------secIII----------------------------------- */

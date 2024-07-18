@@ -1,0 +1,338 @@
+.secVII {
+  height: 700px;
+  width: 100%;
+  background-color: hsl(326, 82%, 89%);
+  float: left;
+}
+.secVII p {
+  width: 20%;
+  color: deeppink;
+  font-weight: bold;
+  margin-left: 42%;
+  margin-top: 5%;
+  font-size: medium;
+}
+
+.secVII h1 {
+  width: 50%;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-left: 28%;
+  margin-top: 1%;
+}
+.slide-container {
+  background-color: white;
+  border-radius: 25%;
+  height: 350px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 38%;
+  position: static;
+  box-shadow: 10px 10px 25px rgb(0, 0, 0, 0.1);
+}
+.image-content {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  padding: 3px;
+}
+.image-content .person {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid deeppink;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.card-content .name {
+  margin-top: 15px;
+  margin-left: 30%;
+}
+.card-content .designation {
+  width: 50%;
+  margin-left: 36%;
+  margin-top: 10px;
+  font-weight: normal;
+  color: black;
+  font-size: small;
+}
+
+.card-content .description {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  font-weight: normal;
+  color: gray;
+  font-size: smaller;
+}
+
+.social-media-profiles {
+  margin-left: 35%;
+}
+
+.social-media-profiles img {
+  height: 17px;
+  width: 17px;
+  margin-top: 15px;
+  background-size: 22px 22px;
+  margin-left: 5px;
+}
+.secVII .btn-left {
+  margin-left: 10%;
+  margin-top: 15%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  border-color: deeppink;
+  background: white;
+  border-bottom: none;
+  border-right: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secVII .btn-right {
+  float: right;
+  margin-right: 10%;
+  margin-top: 15%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  border-color: deeppink;
+  background: white;
+  border-top: none;
+  border-left: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card1 {
+  z-index: 4;
+  position: absolute;
+  margin-left: 27%;
+}
+.card2 {
+  z-index: 3;
+  position: absolute;
+  margin-left: 27%;
+}
+.card3 {
+  z-index: 2;
+  position: absolute;
+  margin-left: 27%;
+}
+.card4 {
+  z-index: 1;
+  position: absolute;
+  margin-left: 27%;
+}
+
+/* ------------------------------------secIX------------------------------------ */
+
+.secIX {
+  height: 800px;
+  width: 100%;
+  float: left;
+}
+
+.secIX .sec-half {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(240, 235, 236);
+}
+
+.sec-half #sec-half-content {
+  width: 600px;
+  height: 40%;
+  margin-top: 30%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+#sec-half-content p {
+  color: deeppink;
+}
+
+#sec-half-content h1 {
+  width: 70%;
+}
+
+#sec-half-content span {
+  color: gray;
+  cursor: pointer;
+}
+#sec-half-content .sec-half-ends {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.secIX #sliderpart {
+  height: 50%;
+  width: 50%;
+  margin-top: 0;
+  background-color: rgb(240, 235, 236);
+  overflow: hidden;
+}
+
+.secIX #sliderpart1 {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(240, 235, 236);
+  overflow: hidden;
+}
+
+#slider {
+  position: relative;
+  display: flex;
+
+  width: 60%;
+  height: 20%;
+  margin-left: 2%;
+  margin-top: 10%;
+  animation: slide 40s linear infinite;
+}
+
+#slider1 {
+  position: relative;
+  display: flex;
+
+  width: 60%;
+  height: 25%;
+  margin-left: 2%;
+  margin-top: 10%;
+  animation: slide 40s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#slider li {
+  list-style: none;
+}
+
+#slider1 li {
+  list-style: none;
+}
+
+.rating {
+  float: right;
+}
+.slider-padding {
+  position: relative;
+  border: 1px solid white;
+  height: 230px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+.slider-padding img {
+  position: relative;
+  margin-top: 8%;
+  size: 15%;
+}
+.slider-padding p {
+  color: gray;
+  font-weight: normal;
+}
+.profile {
+  position: relative;
+  margin-top: 15%;
+}
+.rating {
+  position: relative;
+  display: inline-block;
+  margin-top: -18%;
+}
+.client-name {
+  position: relative;
+  margin-left: 30%;
+}
+.client-name a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.client-designation {
+  position: relative;
+  margin-left: 30%;
+  color: deeppink;
+  font-weight: normal;
+}
+
+/* ---------------------------------secX---------------------------------------------- */
+.secX {
+  height: 600px;
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 228, 231);
+}
+
+.carousel {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.carousel #autoslide1 {
+  height: 50%;
+  width: 1000px;
+  margin-left: 0;
+  overflow: hidden;
+  display: flex;
+}
+.carousel #autoslide1 img {
+  border: 1px solid gray;
+  margin-left: 50px;
+  margin-top: 2%;
+  height: 150px;
+  width: 150px;
+  animation: scroll 4s infinite linear;
+  box-shadow: 0 0 8px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel #autoslide2 {
+  height: 50%;
+  width: 1000px;
+  margin-top: 5%;
+  margin-left: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.carousel #autoslide2 img {
+  border: 1px solid gray;
+  margin-left: 50px;
+  margin-top: 5px;
+  height: 150px;
+  width: 150px;
+  animation: scroll 4s infinite linear;
+  animation-direction: reverse;
+  box-shadow: 0 0 8px;
+}
